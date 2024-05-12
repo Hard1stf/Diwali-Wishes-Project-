@@ -402,4 +402,10 @@ body {
         font-size: 34px;
         padding-block: 0px;
     }
+
+    .credit {
+        font-size: 12px;
+        text-align: right;
+        padding: 20px;
+    }
 }
