@@ -1,0 +1,405 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Salsa", cursive;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(./images/orange-backdrop\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jhalar-con {
+    display: flex;
+}
+
+.jh {
+    height: 300px;
+    /* margin-bottom: 45px; */
+    margin-bottom: -150px;
+}
+
+.hero .para,
+.a-container {
+    font-size: 45px;
+    margin-left: 400px;
+}
+
+.para {
+    margin-bottom: 30px;
+}
+
+.a-container {
+    background-color: #fbd8a4;
+    max-width: 440px;
+    /* max-width: max-content; */
+    border-radius: 45.92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audio::-webkit-media-controls-panel {
+    background-color: #fbd8a4;
+}
+
+.deepak {
+    display: flex;
+    gap: 120px;
+    margin-left: 135px;
+}
+
+.main-content {
+    background-color: rgba(249, 149, 1, 1);
+    height: 100%;
+}
+
+.horz-line {
+    width: 892px;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-inline: auto;
+}
+
+.horz-line .hr-line {
+    background-color: rgba(251, 216, 164, 1);
+    height: 3px;
+    width: 550px;
+}
+
+.horz-line .circle {
+    background-color: rgba(251, 216, 164, 1);
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.g-l-img {
+    /* max-width: auto; */
+    /* height: 100%; */
+    /* padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    height: 750px;
+    display: block;
+    margin-inline: auto;
+    padding-top: 2rem;
+    border-radius: 8px;
+}
+
+.la-li-1 {
+    font-family: "Style Script", cursive;
+    font-size: 70px;
+    padding-block: 20px;
+    text-align: center;
+}
+
+.main-con-2 {
+    background-color: rgba(249, 149, 1, 1);
+    height: 100%;
+}
+
+.together {
+    margin-top: 40px;
+    /* margin-inline: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-box {
+    background-color: rgba(255, 255, 255, 1);
+    width: 500px;
+    height: 450px;
+    padding: 50px;
+    padding-top: 70px;
+    margin-block: 30px;
+    border-radius: 20px;
+}
+
+.t-box>* {
+    font-size: 30px;
+}
+
+.t-box>p {
+    margin-bottom: 30px;
+}
+
+.together img {
+    margin-left: -82px;
+    height: 680px;
+}
+
+.thankx-con {
+    background-color: rgba(249, 149, 1, 1);
+    height: 100%;
+}
+
+.a-g-l-img {
+    display: block;
+    margin-inline: auto;
+    margin-block: 40px;
+}
+
+.la-li-2 {
+    font-family: "Style Script", cursive;
+    font-size: 70px;
+    padding-block: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.credit {
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 20px;
+}
+
+/* laptop Size - Large || Screen size : 1440xp  ................   */
+@media(max-width: 1440px) {
+
+    .hero .para,
+    .a-container {
+        /* font-size: 45px; */
+        margin-left: 280px;
+    }
+
+    .deepak {
+        gap: 50px;
+        margin-left: 40px;
+    }
+
+    .horz-line {
+        width: 792px;
+        padding-top: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-inline: auto;
+    }
+
+    .g-l-img {
+        height: 650px;
+    }
+
+    .la-li-1 {
+        font-size: 50px;
+    }
+}
+
+
+/* Laptop Size - Regular || Screen size : 1024px  ................ */
+@media(max-width: 1024px) {
+    .hero .para {
+        font-size: 35px;
+    }
+
+    .hero .para,
+    .a-container {
+        margin-left: 195px;
+    }
+
+    .d-i {
+        height: 283px;
+    }
+
+    .jhalar-1 {
+        height: 240px;
+    }
+
+    .a-container {
+        margin-left: 180px;
+    }
+
+    .deepak {
+        margin-top: 40px;
+    }
+
+    .g-l-img {
+        height: 550px;
+    }
+
+    .a-g-l-img {
+        height: 500px;
+    }
+}
+
+
+/* Tablet size - Regular || Screen size : 840px is perfect .   .............  */
+@media(max-width: 840px) {
+
+    .jhalar-con {
+        justify-content: space-around;
+    }
+
+    .jh {
+        height: 250px;
+        flex-shrink: 1;
+        margin-bottom: 45px;
+        /* margin-top: -20px; */
+    }
+
+    .hero .para,
+    .a-container {
+        font-size: 35px;
+        margin-left: 150px;
+    }
+
+    .para {
+        margin-bottom: 20px;
+    }
+
+    .a-container {
+        max-width: 440px;
+    }
+
+
+    .deepak {
+        justify-content: center;
+        margin-left: -40px;
+    }
+
+    .d-img-2 {
+        display: none;
+    }
+
+    .horz-line {
+        width: 592px;
+    }
+
+    .horz-line .circle {
+        height: 5px;
+        width: 5px;
+    }
+
+    .g-l-img {
+        height: 350px;
+    }
+
+    .la-li-1 {
+        font-size: 40px;
+    }
+
+    .main-con-2>.horz-line {
+        width: 592px;
+    }
+
+
+    .t-box {
+        width: 400px;
+        height: 350px;
+        padding: 40px;
+        padding-top: 60px;
+        margin-block: 20px;
+    }
+
+    .t-box>* {
+        font-size: 28px;
+    }
+
+    .together img {
+        margin-left: -72px;
+        height: 580px;
+    }
+
+    .a-g-l-img {
+        height: 350px;
+    }
+
+    .la-li-2 {
+        font-size: 50px;
+        padding-block: 10px;
+    }
+}
+
+
+/* Phone size - L, M, S || Screen size : Start's from 425px (this is perfect.).............  */
+@media(max-width: 425px) {
+
+    .jhalar-1 {
+        height: 250px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+    .hero .para {
+        font-size: 1.5rem;
+        margin-left: 30px;
+    }
+
+    .a-container {
+        max-width: 350px;
+        padding: 5px;
+        margin-left: 20px;
+    }
+
+    .music-bars {
+        display: none;
+    }
+
+    .para {
+        margin-bottom: 50px;
+        /* font */
+    }
+
+    .d-img-1 {
+        margin-left: 35px;
+        width: auto;
+    }
+
+    .horz-line {
+        width: 312px;
+    }
+
+    .g-l-img {
+        height: 211px;
+    }
+
+    .la-li-1 {
+        font-size: 29px;
+    }
+
+    .main-con-2 .horz-line {
+        width: 312px;
+    }
+
+    .t-box {
+        width: 260px;
+        height: 184px;
+        padding: 30px;
+        margin-block: 10px;
+    }
+
+    .t-box>* {
+        font-size: 1rem;
+    }
+
+    .together img {
+        margin-left: -72px;
+        height: 255px;
+    }
+
+    .thankx-con .horz-line {
+        width: 312px;
+    }
+
+    .a-g-l-img {
+        height: 195px;
+    }
+
+    .la-li-2 {
+        font-size: 34px;
+        padding-block: 0px;
+    }
+}
